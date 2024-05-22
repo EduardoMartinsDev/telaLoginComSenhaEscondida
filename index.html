@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="login-container">
+    <h2>Faça seu login</h2>
+    <form>
+        <label for="username"><strong>Nome</strong></label>
+        <input type="text" id="username" name="username">
+
+        <label for="password"><strong>Senha</strong></label>
+        <div class="password-container">
+            <input type="password" id="password" name="password">
+            <span id="toggle-password" class="toggle-password">
+                <i class="fas fa-eye"></i>
+            </span>
+        </div>        
+        <button id="submit" type="submit"><strong>Login</strong></button>
+    </form>
+    <div class="signup-link">
+        <p>Se não tem uma conta ainda, <a href="signup.html"><strong>inscreva-se</strong></a>.</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
